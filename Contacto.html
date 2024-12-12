@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | La Llanta Feliz</title>
+<style>
+* {
+box-sizing: border-box; 
+}
+body { 
+font-family: Arial; 
+padding: 10px; 
+background: #D35400; 
+}
+p {
+font-family: "Times New Roman"; 
+font-size: 16px; 
+text-align: center; 
+} 
+h1 {
+font-family: Arial; 
+font-size: 50px; 
+text-align: center;
+color: white;
+}
+h2 {
+font-family: Arial; 
+font-size: 30px; 
+text-align: center;
+color:#aed6f1;
+}
+h3 {
+font-family: Arial; 
+font-size: 16px; 
+text-align: center;
+color:white;
+}
+h4 {
+font-family: "Times New Roman"; 
+font-size: 16px; 
+text-align: center;
+color:#808b96 ;
+}
+h5 {
+font-family: "Times New Roman"; 
+font-size: 16px; 
+text-align: center;
+color:#808b96;
+}
+.main-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 350px;
+background: #f4d03f;
+border-radius: 8px;
+}
+.logo-container {
+overflow: hidden;
+}
+.logo-container img {
+max-width:200%;
+height:125%;
+}
+.image-container {
+margin-bottom: 20px;
+border-radius: 20px;
+overflow: hidden;
+}
+.image-container img {
+max-width:200%;
+height:125%;
+}
+.bici-container {
+margin-bottom: 20px;
+border-radius: 20px;
+overflow: hidden;
+width:100%;
+height:auto%;
+}
+.cart-icon {
+position:absolute;
+top: 40px;
+right: 40px;
+display: flex;
+align-items:right;
+z-index: 999;
+cursor: pointer;
+max-width:5%;
+height:5%;
+}
+.menu {
+display: flex;
+justify-content: center;
+background-color: #333;
+padding: 10px;
+border-radius: 5px;
+}
+.menu ul {
+display: flex;
+list-style: none;
+padding:0;
+margin:0;
+}
+.menu li {
+position: relative;
+margin: 0 10px;
+}
+.menu > ul > li {
+position: relative;
+margin-right: 20px;
+}
+.menu li ul {
+display: none;
+position: absolute;
+background-color: #333;
+padding:0;
+border-radius: 4px; 
+}
+.menu a {
+color: white;
+text-decoration: none;
+padding:10px 15px;
+margin:0 10px;
+display:block;
+}
+.menu a:hover {
+background-color: #555;
+border-radius:4px;
+}
+.menu li:hover > ul {
+display: block;
+}
+.search-bar {
+display: flex;
+margin: 20px 0;
+}
+.search-bar input {
+padding: 8px 12px;
+border:2px solid red;
+border-radius: 4px;
+width: 500px;
+background-image:url("IMG/buscador6.jpeg"); 
+background-position:10px 10px; 
+background-repeat:no-repeat; 
+padding:12px 20px 12px 40px; 
+}
+.search-bar button {
+background-color:red;
+color: white;
+border:none;
+padding: 8px 12px;
+border-radius: 4px;
+margin-left: 10px;
+cursor: pointer;
+}
+.row {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+clear:both;
+}
+.leftcolumn {
+width: 50%; 
+padding: 20px; 
+border-radius: 8px; 
+background-color:white;
+}
+.maps img {
+width:45%;
+height:50%;
+}
+.rightcolumn {
+width: 45%; 
+padding: 20px; 
+background: #ffffff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contenedor-formulario {
+display: flex;
+flex-direction: column;
+}
+.contact-form input, input[type="name"],
+input[type="email"],
+input[type="tel"], select, textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+button {
+background-color: #5499c7;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+button:hover {
+background-color: #34495e;
+}
+.footer {
+padding: 20px; 
+text-align: center; 
+background: #17202a; 
+margin-top: 10px; 
+color: white;
+font-size: 14px;
+border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<div class="main-container">
+<div class="logo-container">
+<img src="IMG/La llanta feliz logo.png" alt="Imagen centrada">
+</div>
+<div class="search-bar">
+<input type="text" placeholder="Buscar...">
+<button>Buscar</button>
+<div class="cart-icon">
+<img src="IMG/icono1.png" alt="alt right">
+</div>
+</div>
+</div>
+<div class="menu">
+<ul>
+<li><a href="LA LLANTA FELIZ.html">Inicio</a></li>
+<li>
+<a href="LA LLANTA FELIZ.html">Bicicletas</a>
+<br>
+<ul>
+<li><a href="Bicicletamontaña.html">Montaña</a></li><br>
+<li><a href="Bicicletasurbanas.html">Urbanas</a></li><br>
+<li><a href="bicicletaselectricas.html">Eléctricas</a></li><br>
+</ul>
+</li>
+<li><a href="Accesorios.html">Accesorios</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+<div class="row">
+<div class="leftcolumn">
+<h2>Horario de atención</h2>
+<h4>Lunes: 8:00 a.m - 17:00 p.m</h4>
+<h4>Martes: 8:00 a.m - 17:00 p.m</h4>
+<h4>Miércoles: 8:00 a.m - 17:00 p.m</h4>
+<h4>Jueves: 8:00 a.m - 17:00 p.m</h4>
+<h4>Viernes: 8:00 a.m - 17:00 p.m</h4>
+<h4>Sábado: 9:00 a.m - 15:00 p.m</h4>
+<h4>Domingo: 11 a.m - 14:00 p.m</h4>
+<div class="maps a">
+<center><a href="https://www.google.com/maps?sca_esv=3539a24babae7179&rlz=1C1UEAD_esMX1074MX1074&cs=0&output=search&q=BICICENTROS+Lezama&source=lnms&fbs=AEQNm0Amy2jxgtl1NAIkYRH8il0KG_Up42if11xK5L-63w0k10PQL2SyPACgGvXzc8aJiBi6tOoCmNXVRRTyKZfDdv5bjX0WfN67Ciftkn2RLg0W_DEdbZtdZevcDzcEoCYFN6x7duUTWCIUb6KKx9XpVL20_go7jf2aWY_Kb1ssMMCi_SkR_PiTOAMLd0MWRxCkIU_Ib8aKIO0ySLHBZRsVG7rlp3c_rg&entry=mc&ved=1t:200715&ictx=111" target="_blank">
+<img src="IMG/maps1.png" alt="GOOGLE MAPS"></a></center><h5>La Llanta Feliz | C. Francisco Canal 1137, Centro, 91700 Veracruz, Ver.</h5>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="contenedor-formulario">
+<form action="#" method="post">
+<h2>Servicio de Reperación</h2>
+<p>Completa el siguiente formulario para ponerse en contacto con nosotros.</p>        
+<label for="nombre">Nombre:</label>
+<input type="name" id="nombre" name="nombre" required>
+<label for="correo">Correo Electrónico:</label>
+<input type="email" id="correo" name="correo" required>
+<label for="telefono">Teléfono:</label>
+<input type="tel" id="telefono" name="telefono" required>
+<label for="pais">País:</label>
+<select id="pais" name="pais" required>
+<option value="">Seleccione un país</option>
+<option value="argentina">Argentina</option>
+<option value="Estados Unidos">Estados Unidos</option>
+<option value="mexico">México</option>
+<option value="colombia">Colombia</option>
+</select>
+<label for="comentarios">Comentarios:</label>
+<textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+<button type="submit">Enviar</button>
+</form>
+</div>
+</div>
+</div>
+<div class="footer">
+<h3>@2024 by Tienda de bicicletas | La Llanta Feliz</h3>
+<h3>Telefono: 2291203040</h3>
+<h3>Maria Fernanda Torres del Cueto</h3>
+</div>
+</body>
+</html>
