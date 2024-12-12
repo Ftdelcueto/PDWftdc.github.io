@@ -23,7 +23,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-height:350px;
+height:auto;
 background:#f4d03f;
 border-radius:8px;
 }
@@ -32,7 +32,7 @@ overflow: hidden;
 }
 .logo-container img {
 max-width:200%;
-height:125%;
+height:auto;
 }
 .image-container {
 margin-bottom: 20px;
@@ -41,7 +41,7 @@ overflow: hidden;
 }
 .image-container img {
 max-width:200%;
-height:125%;
+height:auto;
 }
 .bici-container {
 margin-bottom: 20px;
